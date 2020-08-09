@@ -10,4 +10,15 @@ CREATE TABLE Province (
 
 );
 
+CREATE TABLE Districts (
+    DistrictsID int,
+    DistrictsName varchar(255),
+    CapitalCityName varchar(255),
+    PDB varchar(255),
+    Area varchar(255),
+    TotalPopulation varchar(255),
+    Web varchar(255)
+
+);
+
 
