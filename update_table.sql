@@ -1,110 +1,94 @@
  --ACEH
-    UPDATE public.province SET
+    UPDATE province SET
 	provinceid=11, provincename='Aceh', capitalcityname='Banda Aceh', pdb=17124000, area=57365, totalpopulation=5189466, web='http://www.acehprov.go.id/', island='Sumatera')
 
     --SUMATERA UTARA
-    UPDATE public.province SET
+    UPDATE province SET
 	provinceid=11, provincename='Sumatera Utara', capitalcityname='Medan', pdb='-', area=72981, totalpopulation=12982204, web='http://www.sumutprov.go.id/', island='Sumatera')
 
 --SUMATERA Barat
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (11, 'Sumatera Barat', 'Padang', '-', 42297, 4846909, 'http://www.sumbarprov.go.id/');
+	provinceid=, provincename='Sumatera Barat', capitalcityname='Padang', pdb='-', area=42297, totalpopulation=4846909, web='http://www.sumbarprov.go.id/', island='Sumatera')
 
     --RIAU
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (11, 'Riau', 'Pekanbaru', '-', 94560, 5538367, 'http://www.riau.go.id/');
+	provinceid=, provincename='Riau', capitalcityname='Pekanbaru', pdb='-', area=94560, totalpopulation=5538367, web='http://www.riau.go.id/', island='Sumatera')
 
     --KEPULAUAN RIAU
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (11, 'Kepulauan Riau', 'Tanjung Pinang', '-', 8084, 1274848, 'http://www.kepriprov.go.id/');
-
+	provinceid=, provincename='Kepulauan Riau', capitalcityname='Tanjung Pinang', pdb='-', area=8084, totalpopulation=1274848, web='http://www.kepriprov.go.id/', island='Sumatera')
+	
     --JAMBI
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (11, 'Jambi', 'Jambi', '-', 8084, 3092265, 'http://www.jambiprov.go.id/');
-
+	provinceid=, provincename='Jambi', capitalcityname='Jambi', pdb='-', area=8084, totalpopulation=3092265, web='http://www.jambiprov.go.id/', island='Sumatera')
+	
     --BENGKULU
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (11, 'Bengkulu', 'Bengkulu', '-', 19788, 1715518, 'http://www.bengkuluprov.go.id/');
-
+	provinceid=, provincename='Bengkulu', capitalcityname='Bengkulu', pdb='-', area=19788, totalpopulation=1715518, web='http://www.bengkuluprov.go.id/', island='Sumatera')
+	
     --SUMATERA SELATAN
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (11, 'Sumatera Selatan', 'Palembang', '-', 85679, 7450394, 'http://www.sumselprov.go.id/');
-
+	provinceid=, provincename='Sumatera Selatan', capitalcityname='Palembang', pdb='-', area=85679, totalpopulation=7450394, web='http://www.sumselprov.go.id/', island='Sumatera')
+	
     --KEPULAUAN BANGKA BELITUNG
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (11, 'Bangka Belitung', 'Pangkal Pinang', '-', 16424, 1043456, 'http://www.babelprov.go.id/');
-
+	provinceid=, provincename='Bangka Belitung', capitalcityname='Pangkal Pinang', pdb='-', area=16424, totalpopulation=1043456, web='http://www.babelprov.go.id/', island='Sumatera')
+	
     --LAMPUNG
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (18, 'Lampung', 'Bandar Lampung', '-', 35376, 7608405, 'http://www.lampungprov.go.id/');
+	provinceid=, provincename='Lampung', capitalcityname='Bandar Lampung', pdb='-', area=35376, totalpopulation=7608405, web='http://www.lampungprov.go.id/', island='Sumatera')
 
     --BANTEN
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (11, 'Banten', 'Serang', '-', 9018, 10632166, 'http://www.bantenprov.go.id/');
-
+	provinceid=, provincename='Banten', capitalcityname='Serang', pdb='-', area=9018, totalpopulation=10632166, web='http://www.bantenprov.go.id/', island='Jawa')
+	
     --JAWA BARAT
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (18, 'Jawa Barat', 'Bandung', '-', 35244, 43053732, 'http://www.jabarprov.go.id/');
+	provinceid=, provincename='Jawa Barat', capitalcityname='Bandung', pdb='-', area=35244, totalpopulation=43053732, web='http://www.jabarprov.go.id/', island='Jawa')
 
     --YOGYAKARTA
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (11, 'Yogyakarta', 'Yogyakarta', '-', 3133, 3343651, 'http://www.jogjaprov.go.id/');
+	provinceid=, provincename='Yogyakarta', capitalcityname='Yogyakarta', pdb='-', area=3133, totalpopulation=3343651, web='http://www.jogjaprov.go.id/', island='Jawa')
 
     --JAWA TIMUR
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (18, 'Jawa Timur', 'Surabaya', '-', 47921, 37476757, 'http://www.jatimprov.go.id/');
+	provinceid=, provincename='Jawa Timur', capitalcityname='Surabaya', pdb='-', area=47921, totalpopulation=37476757, web='http://www.jatimprov.go.id/', island='Jawa')
 
     --BALI
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (11, 'Bali', 'Denpasar', '-', 5561, 3890757, 'http://www.baliprov.go.id/');
+	provinceid=, provincename='Bali', capitalcityname='Denpasar', pdb='-', area=5561, totalpopulation=3890757, web= 'http://www.baliprov.go.id/', island='Nusa')
 
     --NUSA TENGGARA BARAT
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (18, 'Nusa Tenggara Barat', 'Mataram', '-', 19950, 4773795, 'http://www.ntb.go.id/');
+	provinceid=, provincename='Nusa Tenggara Barat', capitalcityname='Mataram', pdb='-', area=19950, totalpopulation=4773795, web= 'http://www.ntb.go.id/', island='Nusa')
 
     --NUSA TENGGARA TIMUR
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (18, 'Nusa Tenggara Timur', 'Kupang', '-', 47676, 4683827, 'http://www.nttprov.go.id/');
-
+	provinceid=, provincename='Nusa Tenggara Timur', capitalcityname='Kupang', pdb='-', area=47676, totalpopulation=4683827, web='http://www.nttprov.go.id/', island='Nusa')
 
   --KALIMANTAN BARAT
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
-	VALUES (18, 'Kalimantan Barat', 'Pontianak', '-', 115114, 4395983, 'http://www.kalbar.go.id/');
+	provinceid=, provincename=, capitalcityname=, pdb='-', area=, totalpopulation=, web='http://www.kalbar.go.id/', island='Kalimantan')
+	VALUES (18, 'Kalimantan Barat', 'Pontianak', '-', 115114, 4395983, );
 
     --KALIMANTAN SELATAN
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
+	provinceid=, provincename=, capitalcityname=, pdb='-', area=, totalpopulation=, web=, island='Kalimantan')
 	VALUES (11, 'Kalimantan Selatan', 'Banjarmasin', '-', 36805, 3626616, 'http://www.kalselprov.go.id/');
 
     --KALIMANTAN TIMUR
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
+	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island='Kalimantan')
 	VALUES (18, 'Kalimantan Timur', 'Samarinda', '-', 194849, 2848798, 'http://www.kaltimprov.go.id/');
 
     --KALIMANTAN TENGAH
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
+	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island='Kalimantan')
 	VALUES (11, 'Kalimantan Tengah', 'Palangkaraya', '-', 153564, 2212089, 'http://www.kalteng.go.id/');
 
     --KALIMANTAN UTARA
     UPDATE province SET
-	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island=)
+	provinceid=, provincename=, capitalcityname=, pdb=, area=, totalpopulation=, web=, island='Kalimantan')
 	VALUES (18, 'Kalimantan Utara', 'Tanjung Selor', '-', 71176, 622350, 'http://www.kaltaraprov.go.id/');
 
     --GORONTALO
