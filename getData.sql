@@ -37,3 +37,17 @@ WHERE pdb IS NULL;
 --Returns Lines withot NULL Value
 SELECT * FROM province 
 WHERE pdb IS NOT NULL;
+
+--Compare value with NULL
+SELECT * FROM province 
+WHERE pdb = NULL;
+
+--Operator AND OR
+SELECT * FROM province WHERE provinceid = 11 AND pdb IS NOT NULL;
+
+--Operator AND OR
+SELECT * FROM province WHERE provinceid = 18 OR pdb IS NOT NULL;
+
+
+
+
