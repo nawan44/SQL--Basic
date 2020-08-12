@@ -6,4 +6,8 @@ SELECT * FROM province WHERE island = "Sumatera" ORDER BY provinceid ASC;
 
 
 --LIMIT
-SELECT * FROM province LIMIT 4;
+
+
+
+--DISTINCT
+SELECT DISTINCT(name) FROM province;
