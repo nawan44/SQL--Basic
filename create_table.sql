@@ -10,10 +10,24 @@ CREATE TABLE Province (
 
 );
 
+CREATE TABLE Governor (
+    ProvinceID int,
+    ProvinceName varchar(255),
+    GovernorName varchar(255),
+    dateofbirth date,
+    Sex varchar(255),
+    Address varchar(255),
+    Education varchar(255),
+    Web varchar(255)
+
+);
+
 CREATE TABLE Districts (
     DistrictsID int,
+    ProvinceID int,
     DistrictsName varchar(255),
     CapitalCityName varchar(255),
+    ProvinceName varchar(255),
     PDB varchar(255),
     Area varchar(255),
     TotalPopulation varchar(255),
