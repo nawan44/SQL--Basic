@@ -1,3 +1,6 @@
+--INSERT
+INSERT INTO table_name VALUES (column_value1, column_value2,...); 
+ 
     --ACEH
     INSERT INTO province(
 	provinceid, provincename, capitalcityname, pdb, area, totalpopulation, web, island)

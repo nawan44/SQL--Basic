@@ -1,3 +1,8 @@
+--BASIC CREATE TABLE
+CREATE TABLE [IF NOT EXISTS] table_name
+(column_table column_type [, column_table column_type] )
+
+
 --create table without condition
 CREATE TABLE Province (
     ProvinceID int,
@@ -38,22 +43,11 @@ CREATE TABLE Districts (
 
 
 
-CREATE TABLE Windy (
-    temp varchar(255),
-    dewpoint varchar(255),
-    precip varchar(255),
-    convPrecip varchar(255),
-    snowPrecip varchar(255),
-    wind varchar(255),
-    windGust varchar(255),
-    gust varchar(255),
-    cape varchar(255),
-    ptype varchar(255),
-    mclouds varchar(255),
-    hclouds varchar(255),
-    rh varchar(255),
-    gh varchar(255),
-    pressure varchar(255),
-    lclouds varchar(255)
-);
+--SHOW TABLE
+SHOW TABLE;
 
+SHOW province;
+
+--DROP TABLE
+DROP TABLE [IF EXISTS] table_name;
+DROP province;

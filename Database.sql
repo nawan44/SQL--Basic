@@ -1,0 +1,14 @@
+--CREATE
+CREATE DATABASE [IF NOT EXISTS] database_name;
+
+CREATE DATABASE indonesia;
+
+
+---POSTGRESQL
+CREATE DATABASE "Indonesia"
+    WITH 
+    OWNER = postgres,
+    ENCODING = 'UTF8'
+
+--SHOW DATABASE
+SHOW DATABASES;

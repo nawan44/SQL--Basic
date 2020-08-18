@@ -67,17 +67,11 @@ JOIN Governor
 ON province.provinceid = Governorid
 ;
 
-
 --LEFT JOINT
 SELECT *
 FROM province
 LEFT JOIN Governor
 ON province.provinceid = Governorid;
-
-
-
-
-
 
 SELECT *
 FROM players

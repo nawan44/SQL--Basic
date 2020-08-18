@@ -25,9 +25,9 @@ FROM province
 WHERE provincename LIKE "Utara%" ;
 
 --Get data province nama like 
--- SELECT *
--- FROM province
--- WHERE NOT provincename = "Nama Provinsi";
+SELECT *
+FROM province
+WHERE NOT provincename = "Jawa";
 
 
 --Returns Lines with NULL Value
